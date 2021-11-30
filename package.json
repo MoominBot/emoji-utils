@@ -1,0 +1,28 @@
+{
+  "name": "@moominbot/emojiutils",
+  "version": "1.0.0",
+  "description": "Moomin bot emoji utils",
+  "main": "index.js",
+  "files": ["index.js", "index.d.ts"],
+  "scripts": {
+    "test": "cd test && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moominbot/emoji-utils.git"
+  },
+  "keywords": [
+    "moomin",
+    "discord",
+    "bot",
+    "enlarge",
+    "emoji",
+    "utils"
+  ],
+  "author": "DevAndromeda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moominbot/emoji-utils/issues"
+  },
+  "homepage": "https://github.com/moominbot/emoji-utils#readme"
+}
