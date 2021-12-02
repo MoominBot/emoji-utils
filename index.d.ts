@@ -5,7 +5,8 @@ declare module "@moominbot/emojiutils" {
         id: string | null;
     }
 
-    interface EmojiUtils {
+    class EmojiUtils extends null {
+        private constructor();
         parse(emoji: string): ParsedEmoji;
         unicode(emoji: string): string;
         enlarge(emoji: string): string | null;
