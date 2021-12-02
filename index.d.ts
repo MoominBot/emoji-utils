@@ -7,9 +7,9 @@ declare module "@moominbot/emojiutils" {
 
     class EmojiUtils extends null {
         private constructor();
-        parse(emoji: string): ParsedEmoji;
-        unicode(emoji: string): string;
-        enlarge(emoji: string): string | null;
+        static parse(emoji: string): ParsedEmoji;
+        static unicode(emoji: string): string;
+        static enlarge(emoji: string): string | null;
     }
 
     export default EmojiUtils;
